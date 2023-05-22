@@ -33,3 +33,8 @@ table {
   border-collapse: collapse;
   width: 1000px;
 }
+
+.showMore a{
+  text-decoration: none;
+  
+}

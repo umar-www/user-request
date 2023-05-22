@@ -27,11 +27,11 @@ const getdate = async (resurse: any) => {
     });
   });
 
-  showMore.forEach((item, idx) => {
-    item.addEventListener("click", () => {
-      window.location.href = `https://jsonplaceholder.typicode.com/users/${data[idx].id}`;
-    });
-  });
+  // showMore.forEach((item, idx) => {
+  //   item.addEventListener("click", () => {
+  //     window.location.href = `https://jsonplaceholder.typicode.com/users/${data[idx].id}`;
+  //   });
+  // });
 
   return data;
 };
